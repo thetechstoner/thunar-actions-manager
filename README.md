@@ -20,21 +20,24 @@ After restoring or importing, Thunar is automatically restarted so your changes 
 - Python 3.x
 - Tkinter (usually included with Python)
 - Thunar (XFCE file manager)
-
-sudo apt update && sudo apt install -y thunar python3 python3-tk
-
+```
+sudo apt update
+sudo apt install -y thunar python3 python3-tk
+```
 # additional optional thunar packages
-
+```
 sudo apt install -y gir1.2-thunarx-3.0 libthunarx-3-0 thunar-archive-plugin thunar-font-manager thunar-gtkhash thunar-media-tags-plugin thunar-vcs-plugin thunar-volman thunarx-python
-
+```
 ---
 
 ## How to Use
+```
+git clone https://github.com/thetechstoner/thunar-actions-manager.git
+cd thunar-actions-manager
 
-git clone https://github.com/thetechstoner/thunar-actions-manager.git && cd thunar-actions-manager
-
-chmod +x thunar_actions_manager.py && python3 thunar_actions_manager.py
-
+chmod +x thunar_actions_manager.py
+python3 thunar_actions_manager.py
+```
 ---
 
 ## License
