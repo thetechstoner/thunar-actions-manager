@@ -36,7 +36,7 @@ git clone https://github.com/thetechstoner/thunar-actions-manager.git
 cd thunar-actions-manager
 
 chmod +x thunar_actions_manager.py
-./thunar_actions_manager.py
+python3 thunar_actions_manager.py
 ```
 ---
 
